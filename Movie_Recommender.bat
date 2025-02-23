@@ -1,0 +1,1 @@
+streamlit run Movie_Recommend_App.py
