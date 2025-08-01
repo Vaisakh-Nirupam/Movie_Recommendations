@@ -1,5 +1,9 @@
 import streamlit as st
 import pickle
+import spacy
+
+# Load Model
+nlp = spacy.load("Movie_Recommend_Model")
 
 # Load Pickle
 with open("Movie_Recommend.pkl", "rb") as f:
